@@ -62,20 +62,19 @@ nav a {
   justify-content: center;
 }
 
-.hero .text h2{
+/* .hero .text h2{
   text-align: center;
   color: white;
-  padding: 0px 15px 0px 15px;
+  padding: 0px 10px 0px 10px;
   background-color: red;
-  position: relative;
-  top: 100px;
-  margin: 0px 0px 0px 600px;
-  font-size: 2em;
+  margin: 20%;
+  position: absolute;
   
+  font-size: 2em;
   Right: 0;
   bottom: 1%;
   
-}
+} */
 
 #categoryGrid {
 
