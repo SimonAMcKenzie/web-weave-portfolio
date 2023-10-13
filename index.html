@@ -1,45 +1,92 @@
 <!DOCTYPE html>
-<html lang="en-gb">
+<html lang="en-GB">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Web Weave Front End Web Development Portfolio </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
-  <!-- main logo / nav -->
+
   <header>
-    <h1>Lernantino</h1>
+    <div class="name">
+      <h1>Simon McKenzie</h1>
+    </div>
     <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <li><a href="#cv">CV</a></li>
+      </ul>
     </nav>
   </header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
+  <section class="hero">
+    <div class="text">
+    <h2>Prework Study Guide</h2>
     </div>
+  0
   </section>
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-    </section>
-
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-    </section>
-
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
+  <section id="categoryGrid">
+    <div id="aboutme" class="categoryGridArea">
+      <div class="heading">About Me</div>
+      <div class="aboutMeContent">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem vero placeat suscipit ratione fuga sit adipisci officiis quasi iure, quidem nisi dignissimos iste earum in neque sequi praesentium quos impedit.</p>
+      </div>
+    </div>
+    <div id="my-work" class="categoryGridArea">
+      <div class="heading">My Work</div>
+      <div class="nested-grid">
+        <div id="grid1" class="grid-item grid-item-full">
+          <a href="https://simonamckenzie.github.io/Prework-study-guide/"><img src="./images/02-run-buddy.jpg"
+              alt="Image 1"></a>
+          <h3>Prework Study Guide</h3>
+        </div>
+        <div id="grid2" class="grid-item">
+          <a href="link2.html"><img src="./images/02-portfolio-2.jpg" alt="Image 2"></a>
+          <h3>CSS Cheat Sheet</h3>
+        </div>
+        <div id="grid3" class="grid-item">
+          <a href="link3.html"><img src="./images/02-portfolio-3.jpg" alt="Image 3"></a>
+          <h3>MacTeca</h3>
+        </div>
+        <div id="grid4" class="grid-item">
+          <a href="link4.html"><img src="./images/02-portfolio-4.jpg" alt="Image 4"></a>
+          <h3>King Of Trainers</h3>
+        </div>
+        <div id="grid5" class="grid-item">
+          <a href="link5.html"><img src="./images/02-portfolio-1.jpg" alt="Image 5"></a>
+          <h3>Supple Nam</h3>
+        </div>
+      </div>
+    </div>
+    <div id="contact-me" class="categoryGridArea">
+      <div class="heading">Contact Me</div>
+      <div class="contact-links">
+        <a href="tel:07951551551" class="mobile">
+          <i class="fas fa-phone"></i> Call
+        </a>
+        <a href="mailto:simon@simon.com" class="email">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://www.linkedin.com/in/imsimonmckenzie/" class="li">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/SimonAMcKenzie" class="github">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+    </div>
+    
+  </section>
+  <footer>
+    &copy; 2023 Simon McKenzie
+  </footer>
 </body>
 
 </html>
