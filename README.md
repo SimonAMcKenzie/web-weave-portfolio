@@ -40,7 +40,7 @@ The Web Weave portfolio is accessible online. You can explore the deployed appli
 [Web Weave Live Website](https://simonamckenzie.github.io/web-weave-portfolio/)
 
 Here you can access the GitHub repository for Web Weave by following this link: 
-[Web Weave GitHub Repository](https://simonamckenzie.github.io/web-weave-portfolio/)
+[Web Weave GitHub Repository](https://github.com/SimonAMcKenzie/web-weave-portfolio)
 
 ## Conclusion
 
