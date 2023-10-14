@@ -34,9 +34,13 @@ Web Weave encompasses a range of projects, each meticulously crafted to demonstr
 - **Interactive Animations:** Incorporating animations for a more interactive user experience.
 - **Integration of Backend:** Adding backend technologies to create dynamic and data-driven applications.
 
-## Link to Deployed Application
+## Links to Deployed Application
 
-The Web Weave portfolio is accessible online. You can explore the deployed application by following this link: [Web Weave](#)
+The Web Weave portfolio is accessible online. You can explore the deployed application by following this link: 
+[Web Weave Live Website](https://simonamckenzie.github.io/web-weave-portfolio/)
+
+Here you can access the GitHub repository for Web Weave by following this link: 
+[Web Weave GitHub Repository](https://simonamckenzie.github.io/web-weave-portfolio/)
 
 ## Conclusion
 
@@ -50,6 +54,12 @@ There are no specific installation requirements for this project. You can simply
 
 This portfolio serves as a showcase of my work. Feel free to explore the various projects and interactive elements to get a glimpse of my capabilities as a Front End Web Developer.
 
+Here are some screenshots of the deployed website:
+
+![Full Landing Page](/images/website_screenshot_without_url.png)
+
+![Landing Page with deploy url](/images/website_screenshot_with_url.png)
+
 ## Credits
 
 - [FontAwesome](https://fontawesome.com/) - For providing the icons used in the portfolio. 
@@ -61,6 +71,8 @@ This portfolio serves as a showcase of my work. Feel free to explore the various
 - [W3C Schools HTML Tutorial](https://www.w3schools.com/html/default.asp) - For helping me to implement a structured and accessible website portfolio.
 
 - [edX](https://bootcampspot.instructure.com/) - For the excellent training from the tutor Omar Patel, the knowedgshare I experienced with my fellow students, and the brilliant tutors that helped me get unstuck on many occassions. 
+
+- [Claire Fraser](https://github.com/ClaireFraser121) - For keeping me sane, accountable, helping me problem solve and troubleshoot, motivating me when I felt out of my depth, and for being a great partner 💖
 
 
 ## License
