@@ -18,9 +18,9 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact Me</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#my-work">Work</a></li>
+        <li><a href="#contact-me">Contact Me</a></li>
         <!-- The CV link below allows visitors to download my CV -->
         <li><a href="./downloads/simon_mckenzie_cv_sep_2023.pdf" download target="_blank">CV
             <pdf src="./downloads/simon_mckenzie_cv_sep_2023.pdf" alt="My downloadable resume">
@@ -33,21 +33,21 @@
   <!-- This hero section links to my hero image in my stylesheet under .hero   -->
   <section class="hero">
     <div class="text">
-    <!-- <h2>Web Weave</h2> -->
+    <h2>Web Weave</h2>
     </div>
   
   </section>
   <!-- To make this grid work effectively the Work section images have been put into a nested grid. -->
   <section id="categoryGrid">
-    <div id="aboutme" class="categoryGridArea">
+    <section id="aboutme" class="categoryGridArea">
       <div class="heading">About Me</div>
       <div class="aboutMeContent">
-        <p>For businesses seeking a versatile professional, my multifaceted background in Content Strategy, Product Management, Social Media Video Production, Sales, and Customer Service positions me as the ideal candidate for your next project. With a strategic mindset and creative flair, I excel at crafting compelling narratives, understanding market demands, and building meaningful client relationships. <br><br>As a Front End Web Developer, I leverage this diverse experience to create visually appealing websites that not only engage audiences but also address business objectives effectively. My unique skill set enables me to approach web development with a holistic perspective, ensuring user-friendly interfaces, captivating content, and seamless functionality. By hiring me, you gain a dedicated expert capable of translating your vision into an impactful online presence, supported by a wealth of expertise in content strategy, customer engagement, and market insight.
+        <p>For businesses seeking a versatile professional, my multifaceted background in Content Strategy, Product Management, Social Media Video Production, Sales, and Customer Service positions me as the ideal candidate for your next project. With a strategic mindset and creative flair, I excel at crafting compelling narratives, understanding market demands, and building meaningful client relationships. <br><br>As a new Front End Web Developer, I can leverage this diverse experience to create visually appealing websites that not only engage audiences but also address business objectives effectively. My unique skill set enables me to approach web development with a holistic perspective, ensuring user-friendly interfaces, captivating content, and seamless functionality. By hiring me, you gain a dedicated expert capable of translating your vision into an impactful online presence, supported by a wealth of expertise in content strategy, customer engagement, and market insight.
         </p>
       </div>
-    </div>
+    </section>
     <!-- All links in the nested grid below will take users to a new tab -->
-    <div id="my-work" class="categoryGridArea">
+    <section id="my-work" class="categoryGridArea">
       <div class="heading">My Work</div>
       <div class="nested-grid">
         <div id="grid1" class="grid-item grid-item-full">
@@ -55,9 +55,12 @@
               alt="This is a cover image for my prework study guide"></a>
           <h3>Prework Study Guide</h3>
         </div>
+        <!-- Embedded a video into grid2 using an iframe tag -->
         <div id="grid2" class="grid-item">
-          <a href="link2.html"><img src="./images/02-portfolio-2.jpg" alt="Clickable image of a laptop with a code and grid image on the screen "></a>
-          <h3>CSS Cheat Sheet</h3>
+          <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/fqWpRCL1rNI?si=IKKUoSeEwNrMR3hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <h3>Short Video Edit</h3>
         </div>
         <div id="grid3" class="grid-item">
           <a href="link3.html"><img src="./images/02-portfolio-3.jpg" alt="birds eye view of a blue car on a pink and blue background"></a>
@@ -72,9 +75,9 @@
           <h3>Supple Nam</h3>
         </div>
       </div>
-    </div>
+    </section>
     <!-- All links have icons and will open a new tab when clicked -->
-    <div id="contact-me" class="categoryGridArea">
+    <section id="contact-me" class="categoryGridArea">
       <div class="heading">Contact Me</div>
       <div class="contact-links">
         <a href="tel:07951551551" class="mobile" target="_blank">
@@ -91,7 +94,9 @@
         </a>
       </div>
     </div>
-
+  </section>
+  </section>
+  </section>
   </section>
   <!-- The footer below shows that I am the copyright owner -->
   <footer>

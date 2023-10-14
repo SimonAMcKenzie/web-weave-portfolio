@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
   min-height: 100vh;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -21,21 +22,17 @@ header {
   background-color: red;
   color: white;
   left: 10;
-  /* bottom: 20px; */
-  padding: 1px 16px 1px 16px;
-  font-size:medium;
+  padding: 2px 16px;
+  font-size: large;
 }
 
-nav {
-  margin-right: 80px;
-}
-
-
+/* This controls the positioning of the nav menu */
 nav ul {
   padding: none;
   list-style: none;
   display: flex;
   justify-content:space-around;
+  margin-right: 50px;
   
 }
 
@@ -47,35 +44,33 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 .hero {
-  background-image: url('/images/my_portfolio_picture.jpg'); /* Replace 'hero.jpg' with the path to your hero image */
+  background-image: url('/images/my_portfolio_picture.jpg');
   background-size: cover;
   background-position: center;
   height: 400px;
-  color: white;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  position: relative;
 }
 
-/* .hero .text h2{
+.hero .text {
   text-align: center;
-  color: white;
-  padding: 0px 10px 0px 10px;
-  background-color: red;
-  margin: 20%;
   position: absolute;
-  
-  font-size: 2em;
-  Right: 0;
-  bottom: 1%;
-  
-} */
+  bottom: 0;
+  right: 0;
+  background-color: #333;
+  padding: 10px 20px;
+}
 
+.hero .text h2 {
+  color: white;
+  font-size: 2em;
+  margin: 0;
+}
+
+/* This controls the grid framework */
 #categoryGrid {
 
   /* display: grid;
@@ -92,7 +87,7 @@ nav a {
   padding: 0 40px;
 
 }
-
+/* This controls everything within the grid framework */
 .categoryGridArea {
   /* display: flex;
   align-items: center; */
@@ -109,8 +104,11 @@ nav a {
 .heading {
   border-right: 1px solid #000000;
   margin-right: 20px;
+  font-size: 1.8em; 
+  padding-right: 10px;
+  padding-top: 22px;
 }
-
+/* These settings adjust the positioning of the contact links text */
 .contact-links {
   grid-column: span 2 3; /* Make the contact links span both columns */
   display: flex;
@@ -118,32 +116,35 @@ nav a {
   margin-top: 40px; /* Add some top margin to separate from the heading */
 }
 
-/* Styles for individual links (optional) */
+/* This section allows the link icons and text to be stylised */
 .contact-links a {
   text-decoration: none;
-  color: #333;
+  /* color: #333; */
   font-weight: bold;
 }
 
-
-.aboutMeCoontent {
-  position: inherit;
+/* trying to figure out how to reposition and make the headings for each section bigger? */
+.aboutMeContent {
+  position: relative;
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+ 
 }
-
+/* This is where you can adjust the structure of the nested grid */
 .nested-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   margin-top: 10px;
 }
-
+/* This gives the grid images uniformity */
 .nested-grid .grid-item {
   overflow: hidden;
   position: relative;
   /* background-position: center;
   background-size: cover; */
 }
-
+/* This makes the image opacity change to create a hover effect */
 .nested-grid .grid-item:hover {
   opacity: .5;
 
@@ -154,25 +155,38 @@ nav a {
   height: 100%;
   object-fit: cover;
 }
-
+/* This controls the heading text and text styling on each of the 5 grids */
 .nested-grid .grid-item h3 {
+  text-align: center;
   position: absolute;
-  background-color: red;
-  color: white;
-  Right: 0;
-  bottom: 20px;
-  padding: 8px 14px;
+  bottom: 0;
+  right: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0;
 }
-
+/* This makes grid1 span both columns on the top row */
 .grid-item-full {
   grid-column:1/3;
 }
 
 
+/* This allows a video to be imbeded into the nested grid   */
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+/* This is where the footer structure and styling can be found */
 footer {
   background-color: #333;
   color: white;
   text-align:center;
+  font-size: x-large;
   padding: 50px;
   position: sticky;
   top: 100vh;
