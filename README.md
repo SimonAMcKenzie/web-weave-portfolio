@@ -1,75 +1,72 @@
-# Unit 2 Challenge: Portfolio
+# Web Weave
 
-## Your Task
+Web Weave is a front-end web development portfolio project by Simon McKenzie. This portfolio showcases my skills and expertise in the world of web development, offering a glimpse into my diverse background and proficiency in crafting visually appealing and functional websites.
 
-This week, you'll build a portfolio page, which you can add to as the course progresses. 
+## Overview
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+This portfolio project demonstrates my abilities as a Front End Web Developer. It serves as a showcase of my work, providing insights into my approach to web development and design.
 
-With these points in mind, in this challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+## Motivation
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+My motivation behind Web Weave was to create an engaging and interactive platform that not only highlights my skills but also provides a seamless user experience. I aimed to blend creativity with functionality, making it a testament to my passion for web development.
 
-## Acceptance Criteria
+## Project Scope
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+Web Weave encompasses a range of projects, each meticulously crafted to demonstrate different aspects of web development. From responsive design to interactive elements, the scope of this project is to showcase versatility and expertise.
 
-* When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you
-* When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
-* When viewing the section about your work then the section contains titled images of your applications
-* When presented with the your first application then that application's image should be larger in size than the others
-* When images of the applications are clicked then the user is taken to that deployed application
-* When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
+## Key Features
 
-## Mock-Up
+- **Responsive Design:** Ensuring optimal user experience across various devices and screen sizes.
+- **Interactive Elements:** Incorporating engaging elements for a dynamic user interface.
+- **Creative Visuals:** Utilising visually appealing designs to capture user attention.
+- **Technological Proficiency:** Demonstrating proficiency in HTML, CSS, and JavaScript.
+- **Portfolio Showcase:** Highlighting a collection of projects to exhibit diverse skills.
 
-The following animation shows the web application's appearance and functionality:
+## Technologies Used
 
-![portfolio demo](./images/01-css-challenge-demo.gif)
+- HTML
+- CSS
+- JavaScript
 
-Feel free to use your own colors and images.
+## Future Enhancements
 
-## Grading Requirements
+- **Portfolio Expansion:** Continuously adding new projects to keep the portfolio updated and relevant.
+- **Interactive Animations:** Incorporating animations for a more interactive user experience.
+- **Integration of Backend:** Adding backend technologies to create dynamic and data-driven applications.
 
-This challenge is graded based on the following criteria: 
+## Link to Deployed Application
 
-### Technical Acceptance Criteria: 40%
+The Web Weave portfolio is accessible online. You can explore the deployed application by following this link: [Web Weave](#)
 
-* Satisfies all of the above acceptance criteria.
+## Conclusion
 
-### Deployment: 32%
+Web Weave represents my dedication to creating visually stunning and highly functional websites. I am passionate about web development, and this portfolio is a testament to my skills and enthusiasm for the craft.
 
-* Application deployed at live URL.
+## Installation
 
-* Application loads with no errors.
+There are no specific installation requirements for this project. You can simply access the portfolio through the provided link.
 
-* Application GitHub URL submitted.
+## Usage
 
-* GitHub repository contains application code.
+This portfolio serves as a showcase of my work. Feel free to explore the various projects and interactive elements to get a glimpse of my capabilities as a Front End Web Developer.
 
-### Application Quality: 15%
+## Credits
 
-* Application resembles the mock-up functionality provided in the challenge instructions.
+- [FontAwesome](https://fontawesome.com/) - For providing the icons used in the portfolio. 
 
-### Repository Quality: 13%
+- [GitHub Pages](https://pages.github.com/) - For hosting the deployed application. 
 
-* Repository has a unique name.
+- [W3C Schools CSS Tutorial](https://www.w3schools.com/css/default.asp) - For providing lots of materials to help me style my website portfolio.
 
-* Repository follows best practices for file structure and naming conventions.
+- [W3C Schools HTML Tutorial](https://www.w3schools.com/html/default.asp) - For helping me to implement a structured and accessible website portfolio.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+- [edX](https://bootcampspot.instructure.com/) - For the excellent training from the tutor Omar Patel, the knowedgshare I experienced with my fellow students, and the brilliant tutors that helped me get unstuck on many occassions. 
 
-* Repository contains multiple descriptive commit messages.
 
-* Repository contains quality readme with description, screenshot, link to deployed application.
+## License
 
-## Review
+This project is licensed under the [MIT License](LICENSE). 
 
-You are required to submit BOTH of the following for review:
+## Badge
 
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+![MIT Static Badge](https://img.shields.io/badge/License-MIT-brightgreen)
