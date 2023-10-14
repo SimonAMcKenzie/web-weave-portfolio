@@ -12,6 +12,7 @@
 <body>
 
   <header>
+    <!-- The div below can be modified by going to .name in the style sheet -->
     <div class="name">
       <h1>Simon McKenzie</h1>
     </div>
@@ -20,6 +21,7 @@
         <li><a href="#about">About Me</a></li>
         <li><a href="#work">Work</a></li>
         <li><a href="#contact">Contact Me</a></li>
+        <!-- The CV link below allows visitors to download my CV -->
         <li><a href="./downloads/simon_mckenzie_cv_sep_2023.pdf" download target="_blank">CV
             <pdf src="./downloads/simon_mckenzie_cv_sep_2023.pdf" alt="My downloadable resume">
             </pdf>
@@ -28,14 +30,14 @@
       </ul>
     </nav>
   </header>
-
+  <!-- This hero section links to my hero image in my stylesheet under .hero   -->
   <section class="hero">
     <div class="text">
     <!-- <h2>Web Weave</h2> -->
     </div>
   
   </section>
-
+  <!-- To make this grid work effectively the Work section images have been put into a nested grid. -->
   <section id="categoryGrid">
     <div id="aboutme" class="categoryGridArea">
       <div class="heading">About Me</div>
@@ -44,32 +46,34 @@
         </p>
       </div>
     </div>
+    <!-- All links in the nested grid below will take users to a new tab -->
     <div id="my-work" class="categoryGridArea">
       <div class="heading">My Work</div>
       <div class="nested-grid">
         <div id="grid1" class="grid-item grid-item-full">
           <a href="https://simonamckenzie.github.io/Prework-study-guide/" target="_blank"><img src="./images/pre_work_study_guide.jpg"
-              alt="Image 1"></a>
+              alt="This is a cover image for my prework study guide"></a>
           <h3>Prework Study Guide</h3>
         </div>
         <div id="grid2" class="grid-item">
-          <a href="link2.html"><img src="./images/02-portfolio-2.jpg" alt="Image 2"></a>
+          <a href="link2.html"><img src="./images/02-portfolio-2.jpg" alt="Clickable image of a laptop with a code and grid image on the screen "></a>
           <h3>CSS Cheat Sheet</h3>
         </div>
         <div id="grid3" class="grid-item">
-          <a href="link3.html"><img src="./images/02-portfolio-3.jpg" alt="Image 3"></a>
+          <a href="link3.html"><img src="./images/02-portfolio-3.jpg" alt="birds eye view of a blue car on a pink and blue background"></a>
           <h3>MacTeca</h3>
         </div>
         <div id="grid4" class="grid-item">
-          <a href="link4.html"><img src="./images/02-portfolio-4.jpg" alt="Image 4"></a>
+          <a href="link4.html"><img src="./images/02-portfolio-4.jpg" alt="A shadowy figure in the sea holding a surf board with waves behind them"></a>
           <h3>King Of Trainers</h3>
         </div>
         <div id="grid5" class="grid-item">
-          <a href="link5.html"><img src="./images/02-portfolio-1.jpg" alt="Image 5"></a>
+          <a href="link5.html"><img src="./images/02-portfolio-1.jpg" alt="A red LED panel of lights against a black backdrop"></a>
           <h3>Supple Nam</h3>
         </div>
       </div>
     </div>
+    <!-- All links have icons and will open a new tab when clicked -->
     <div id="contact-me" class="categoryGridArea">
       <div class="heading">Contact Me</div>
       <div class="contact-links">
@@ -87,8 +91,9 @@
         </a>
       </div>
     </div>
-    
+
   </section>
+  <!-- The footer below shows that I am the copyright owner -->
   <footer>
     &copy; 2023 Simon McKenzie
   </footer>
